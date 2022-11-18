@@ -1,9 +1,86 @@
-span{
-    font-size: 20px;
-    color: green;
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
 }
 
-.border{
-    fout-size: 15px;
+h1{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.center{
+    color: #060606;
+    text-align: center;
+}
+ul{
+    font-size: 20px;
+    text-decoration: underline;
+}
+div{
+    font-size: 20px;
+    color: black;
+}
+.text{
+    font-size: 17px;
+    color: black;
+}
+.shadow{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #000;
+}
+.color{
+    font-size: 25px;
     color: red;
+    font-weight: 700;
+}
+.right{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: right;
 }
